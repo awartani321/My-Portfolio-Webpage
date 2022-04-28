@@ -15,12 +15,16 @@
     header{ background-image: url(./images/header.png);
     margin: 50px;
 border-style: groove;
-border-radius: 50px;}
+border-radius: 50px;
+background-position: 0;}
+
+
    
     
     h1{
         color: #87CEFA;
         text-align: center;
+        
     }
    /* Navbar Styles*/
     .navbar ul {
@@ -36,7 +40,7 @@ border-radius: 50px;}
     
     }
     .navbar a{
-        text-decoration: underline; color:#87CEFA;
+        text-decoration: none; color:#87CEFA;
         color:#87CEFA;
         width: 100px;
         display: block;
@@ -64,9 +68,36 @@ border-radius: 50px;}
     padding: 150px;
     
 }
-h2{
+.hero2{
     color: #ccc;
    justify-content:right;
    font-family: 'Courier New', Courier, monospace ;
    
+}/* These are the styles for the nav bar links later in the page */
+
+#about-me {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+
+   
+}
+.about{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 5vw;
+    color: gray;
+}
+.adam{
+    text-align: center;
+}
+.about-info{
+
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    color: #353635;
+    font-size: large;
 }
