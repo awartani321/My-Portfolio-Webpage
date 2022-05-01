@@ -187,6 +187,13 @@ background: gray;
     text-align: center;
     nav-down: 20px;
 }
+
+/* Start of Media Queries*/
+
+
+/* 768px screen Media Query*/
+
+
 @media screen and (max-width: 768px) { 
     
     .contact-section li {
@@ -223,6 +230,7 @@ header{
     width: 50%;
   
 }
+/* 575px screen Media Query*/
 
 @media screen and (max-width: 575px) { 
     .header{
@@ -246,9 +254,22 @@ header{
     .contact-section{
         width: 110%;
     }
-}
+/* 390px screen Media Query*/
 
-
-
-}
+    @media  (max-width: 390px) 
+    {
+        .navbar ul{
+            width: 139.5%;
+        }
+        .section{
+            width: 139.5%;
+        }
+        .contact-section{
+            width: 139.5%;
+        }
+        .hero{
+            width:62.5%;
+        }
+    }
+/* End of Media Queries*/
     
