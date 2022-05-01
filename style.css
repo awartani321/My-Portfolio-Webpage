@@ -14,10 +14,10 @@
     }
     header{ background-image: url(./images/header.png);
     margin: 50px;
-border-style: groove;
-border-radius: 50px;
-background-position: 0;
-text-decoration: none;}
+    border-style: groove;
+    border-radius: 50px;
+    background-position: 0;
+    text-decoration: none;}
 
 
 
@@ -56,6 +56,9 @@ text-decoration: none;}
         background: #353635;
     }
     
+    /* These are the styles for the hero section */
+
+
 .hero {
    background-image: url(./images/hero.jpg);
    background-size: cover;
@@ -76,7 +79,7 @@ text-decoration: none;}
    font-family: 'Courier New', Courier, monospace ;
    
 }/* These are the styles for the nav bar links later in the page */
-
+#about-me{background-color: darkblue;}
 
 .adam{
     text-align: center;
@@ -88,6 +91,7 @@ text-decoration: none;}
     margin: 20px;
     color: #353635;
     font-size: 1.5vw;
+    
 }
 
 .section{ 
@@ -131,4 +135,37 @@ text-decoration: none;}
 position: absolute;
 bottom: 10px;
 background: gray;
+}
+/* These are the styles for the contact section/footer of the page*/
+
+.contact-section h2{
+    border-right: #353635 solid 3px;
+    margin-right: 20px;
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+    font-size: 5vw;
+    color: gray;
+
+}
+
+.contact-section{
+    display:flex;
+    flex-direction: row;
+    background-color:darkblue;
+    
+}
+.contact-section > div{
+    width: calc(80% - 20px);
+}
+.contact-section li{
+    list-style: none;
+    left: 50px;
+    font-size: 2vw;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: underline;
+    padding: 20px;
+    margin: 20px;
+    color: #353635;
 }
