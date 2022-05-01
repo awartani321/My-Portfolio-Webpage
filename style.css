@@ -123,6 +123,9 @@
 .section > div{
     width: calc(80% - 20px);
 }
+
+/* My work section styles*/
+
 .projects{
     display: flex;
     flex-direction: row;
@@ -176,27 +179,75 @@ background: gray;
     left: 50px;
     font-size: 1.5vw;
     display: inline;
-    justify-content:baseline;
+    justify-content:space-between;
     text-decoration: underline;
-    padding: 20px;
-    margin: 100px;
+    padding:25px;
+    margin: 25px;
     color:white;
     text-align: center;
     nav-down: 20px;
 }
-@media screen and (max-width: 980px) {
-
-    .contact-section li{
-
-    display: flex;
+@media screen and (max-width: 768px) { 
+    
+    .contact-section li {
+    
+    justify-content: space-evenly;
+    display:inline;
     flex-wrap: wrap;
-    }
-
-header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
 }
-@media screen and  {
+header{
+    width: 100%;
+}
+.navbar ul{
+    width: 100%;
+}
+.section{
+
+    width: 100%;
+}
+.hero{
+    width: 60%;
+}
+.contact-section{
+    width: 100%;
+}
+    .main-project{
+        width: 85%;
+    }
+.projects{
+    width: 50%;
+  
+}
+
+@media screen and (max-width: 575px) { 
+    .header{
+        width: 95%;
+       margin: 0;
+
+
+}
+    
+    
+    .navbar ul{
+    width: 65%;
     
 }
+.hero
+{
+    width: 12.5%;
+}
+.section{
+    width: 70%;
+}
+    
+}
+
+
+
+}
+    
