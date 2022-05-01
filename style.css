@@ -79,7 +79,16 @@
    font-family: 'Courier New', Courier, monospace ;
    
 }/* These are the styles for the nav bar links later in the page */
-#about-me{background-color: darkblue;}
+
+/*About me section styles*/
+.adamimage{
+    border-radius: 5px;
+    border-style: groove;
+    margin: 20px;
+}
+
+#about-me{background-color: darkblue;
+}
 
 .adam{
     text-align: center;
@@ -89,7 +98,7 @@
     text-align: center;
     justify-content: center;
     margin: 20px;
-    color: #353635;
+    color: white;
     font-size: 1.5vw;
     
 }
@@ -158,14 +167,22 @@ background: gray;
 .contact-section > div{
     width: calc(80% - 20px);
 }
+
+
+
 .contact-section li{
     list-style: none;
     left: 50px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     display: inline;
-    justify-content: space-between;
+    justify-content:baseline;
     text-decoration: underline;
     padding: 20px;
-    margin: 20px;
-    color: #353635;
+    margin: 50px;
+    color:white;
+    text-align: center;
+    nav-down: 20px;
+}
+@media screen {
+    
 }
