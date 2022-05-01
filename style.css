@@ -43,7 +43,7 @@
     }
     .navbar a{
         text-decoration: none; color:#87CEFA;
-        color:#87CEFA;
+        color:white;
         width: 100px;
         display: block;
         padding: 25px 20px;
@@ -178,7 +178,7 @@ background: gray;
     justify-content:baseline;
     text-decoration: underline;
     padding: 20px;
-    margin: 50px;
+    margin: 100px;
     color:white;
     text-align: center;
     nav-down: 20px;
