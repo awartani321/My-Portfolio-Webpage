@@ -23,7 +23,7 @@
 
     
     h1{
-        color: #87CEFA;
+        color: darkblue;
         text-align: center;
         text-decoration: none;
         
@@ -183,6 +183,17 @@ background: gray;
     text-align: center;
     nav-down: 20px;
 }
-@media screen {
-    
+@media screen and (max-width: 980px) {
+
+    .contact-section li{
+
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
 }
+
