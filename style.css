@@ -85,6 +85,7 @@
     border-radius: 5px;
     border-style: groove;
     margin: 20px;
+    border-color: black;
 }
 
 #about-me{background-color: darkblue;
